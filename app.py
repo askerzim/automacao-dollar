@@ -14,7 +14,7 @@ def enviar_email(cotacao):
     msg['Subject'] = "Dólar está hoje abaixo de R$5.10"
     msg['From'] = 'seu-email'
     msg['To'] = 'seu-email'
-    password = 'dzyfxalduwfsyphe'
+    password = 'sua senha'
     msg.add_header('Content-Type', 'text/html')
     msg.set_payload(corpo_email )
 
